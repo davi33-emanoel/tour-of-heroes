@@ -8,6 +8,8 @@ import { HeroDetailComponent } from './components/hero-detail/hero-detail.compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MessagesComponent } from './components/messages/messages.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { MessagesComponent } from './components/messages/messages.component';
     FormsModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatButtonModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
