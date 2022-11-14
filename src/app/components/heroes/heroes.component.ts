@@ -9,6 +9,7 @@ import { HeroService } from 'src/app/services/hero.service';
   styleUrls: ['./heroes.component.scss']
 })
 export class HeroesComponent implements OnInit {
+  displaydedColumns: string[] = ['id','name']
   heroes: Hero[] = [];
   selectedHero?: Hero;
 
