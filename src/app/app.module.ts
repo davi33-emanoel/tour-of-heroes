@@ -16,6 +16,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatCardModule } from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import {MatListModule} from '@angular/material/list';
+import {MatInputModule} from '@angular/material/input'
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     MatIconModule,
     FlexLayoutModule,
     MatTooltipModule,
-    MatCardModule
+    MatCardModule,
+    MatListModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
